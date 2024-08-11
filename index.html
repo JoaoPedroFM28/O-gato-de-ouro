@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<title>Em busca do gato de ouro</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0"> 
+            <img src="asteca.avif" alt="">
+            <p>Limpando sua nova casa você se depara com um livro perdido que conta a história de um gato de ouro que vale mais de 100 milhões
+                de reais. Nesse livro é possível identificar algumas pistas para encontrar esse objeto valioso e você decidi segui-lás.
+            </p>
+            <button class="btn-proximo" data-proximo="1">México</button>
+            <button class="btn-proximo" data-proximo="2">Peru</button>
+        </div>
+        <div class="passo" id="passo-1"> 
+            <p> Você segue as pistas até o México que te leva as ruínas do império Asteca, um lugar marcado pelo tempo e abandonado pela história.
+                A escolha é sua, você pode desistir, o que parece uma boa opção devido a hostilidade do local, ou seguir em frente e desbravar 
+                a história.
+            </p>
+            <button class="btn-proximo" data-proximo="3">Explorar as ruínas</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e ir embora para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Suas pistas te levam ao imponente e majestoso império Inca, um dos maiores impérios da humanidade que hoje se encontra devastado.
+                Conversando com alguns nativos você ouve sobre a lenda da montanha e sua importância para a história do local, porém outra coisa
+                também te chama atenção, o templo esquecido. Qual a sua escolha?
+            </p>
+            <button class="btn-proximo" data-proximo="5">Explorar montanha</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o templo</button>
+
+        </div>
+        <div class="passo" id="passo-3">
+            <p>  Você encontra diversas gravuras na parede das ruínas, com o passar o tempo você nota um padrão de desenhos
+                e acaba descobrindo o anagrama por trás do mistério, esse anagrama te leva a Inglaterra.
+                
+            </p>
+            <button class="btn-proximo" data-proximo="7">Ir para a Inglaterra</button>
+
+        </div>
+        <div class="passo" id="passo-4">
+            <p>  Você desisti da aventura e seu maior rival historiador descobre o gato de ouro, com isso ele
+                ganha muitos prêmios e fica rico enquanto você chupa o dedo e remói suas decisões.
+                
+            </p>
+            <img src="cenario-passo4-voltar-casa.webp" alt="">
+
+        </div>
+        <div class="passo" id="passo-5">
+            <p>  Você sobe a montanha com muita dificuldade, passando por diversos desafios, ao chegar ao topo
+                é possivel ver uma história gravada no chão do local, com ajuda do seu guia local é possivel compreende-la.
+                Nela diz que a resposta para o seu mistério seu encontra no templo local.
+
+                
+            </p>
+            <button class="btn-proximo" data-proximo="6">Ir para o templo</button>
+
+        </div>
+        <div class="passo" id="passo-6">
+            <p>  No templo você descobre uma câmara secreta que te leva a um altar, sobrevivendo a diversas armadilhas
+                você chega ate ele e encontra um livro com coordenadas usadas de forma rústica, elas te levam até a 
+                Inglaterra.
+            </p>
+            <button class="btn-proximo" data-proximo="7">Ir para Inglaterra
+                
+            </button>
+
+        </div>
+        <div class="passo" id="passo-7">
+            <p> Na inglaterra, com as informações que você coletou sua missão se torna outra, invadir o museu e investigá-lo7
+                ao fazer isso com suceso ao calar da noite você se encongtra em um dilema, investigar os quadros ou as estátuas 
+            </p>
+            <button class="btn-proximo" data-proximo="8">Investigar quadros</button>
+            <button class="btn-proximo" data-proximo="9">Investigar estátuas</button>
+
+        </div>
+        <div class="passo" id="passo-8">
+            <p> Você passa um tempo investigando os quadros e nao encontra nada demais, então decidi ir analisar as estátuas,
+                o clima é de tensão, afinal foi perdido um tempo valioso em sua busca!
+  
+            </p>
+            <button class="btn-proximo" data-proximo="9">Investigar estátuas</button>
+
+        </div>
+        <div class="passo" id="passo-9">
+            <p> Você usa todas as informações que coletou ao longo do caminho e descobre um compartimento secreto 
+                em uma das estátuas mais famosas do museu, dentro dessa pequena gaveta você encontra o prêmio, 
+                o tão sonhado GATO DE OURO, mas você não tem tempo para comemorar agora, fuja!
+            </p>
+
+            <button class="btn-proximo" data-proximo="10">Pegar o gato de ouro e fugir</button> 
+
+        </div>
+        <div class="passo" id="passo-10">
+            <p> VOCÊ COMPLETOU AVENTURA!!! PARABÉNS POR SUA DETERMINAÇÃO, SUAS HABILIDADES COMO INVESTIGADOR E 
+                HISTORIADOR SAO DIGNAS DE ELOGIO!
+            </p>
+            <img class="vitoria" src="gato-bonito-segurando-ouro-moeda-desenho-animado-de-ilustração-giro-218181753.webp" alt="">
+
+        </div>
+
+
+    </main>
+
+    <script src = "scripit.js"> </script>
+
+</body>
+</html>
